@@ -11,6 +11,7 @@
     * Strona z plikami ISO: https://www.centos.org/download/
     * Potrzebna wersja: Minimal
     * Bezpośredni link: http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
+    * Bezpośredni link (32 bit): http://mirror.centos.org/altarch/7/isos/i386/CentOS-7-i386-Minimal-1804.iso
     * **Nie instalować – zainstalujemy jako maszynę wirtualną podczas warsztatów.**
 
 3. **PgAdmin 4**

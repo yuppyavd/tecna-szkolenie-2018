@@ -33,3 +33,4 @@
 
 1. [Instrukcja instalacji i konfiguracji CentOS](CENTOS_INSTRUCTION.md)
 2. [Testowa aplikacja Java](compiled/training.war)
+3. [Oracle 11g XE](https://system.aurea-bpm.com/download/training/oracle-xe-11.2.0-1.0.x86_64.rpm.zip)

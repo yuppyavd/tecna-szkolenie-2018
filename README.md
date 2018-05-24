@@ -1,0 +1,1 @@
+# tecna-szkolenie-2018

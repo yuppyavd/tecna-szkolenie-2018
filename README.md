@@ -11,6 +11,7 @@
     * Strona z plikami ISO: https://www.centos.org/download/
     * Potrzebna wersja: Minimal
     * Bezpośredni link: http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
+    * Bezpośredni link (32 bit): http://mirror.centos.org/altarch/7/isos/i386/CentOS-7-i386-Minimal-1804.iso
     * **Nie instalować – zainstalujemy jako maszynę wirtualną podczas warsztatów.**
 
 3. **PgAdmin 4**
@@ -33,3 +34,4 @@
 
 1. [Instrukcja instalacji i konfiguracji CentOS](CENTOS_INSTRUCTION.md)
 2. [Testowa aplikacja Java](compiled/training.war)
+3. [Oracle 11g XE](https://system.aurea-bpm.com/download/training/oracle-xe-11.2.0-1.0.x86_64.rpm.zip)

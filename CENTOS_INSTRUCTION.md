@@ -32,7 +32,7 @@ Wyświetlenie przydzielonych adresów IP:
 Można sprawdzić ping z serwera host. Jeśli działa, można już połączyć się poprzez PuTTY.
 
 
-### Konfiguracja zapisu daty i czasu w historii poleceń
+## Konfiguracja zapisu daty i czasu w historii poleceń
 
 Dodanie zmiennej środowiskowej do konfiguracji profilu użytkownika:
 

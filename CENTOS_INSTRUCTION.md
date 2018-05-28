@@ -259,6 +259,14 @@ W poniższych linijkach zmieniamy metodę `ident` na `md5`.
     host    all             all             127.0.0.1/32            md5
     # IPv6 local connections
     host    all             all             ::1/128                 md5
+    
+Uruchomienie bazy danych PostgreSQL:
+
+    $ sudo systemctl start postgresql
+    
+Dodanie usługi bazy danych PostgreSQL do auto-start'u:
+
+    $ sudo systemctl enable postgresql
 
 Przełączenie na użytkownika postgres:
 
@@ -279,15 +287,6 @@ Utworzenie bazy danych:
 Z systemu host połączenie przez pgAdmin'a nie zadziała, port zablokowany przez firewall'a. Tworzymy tunel przez Putty i łączymy się pod adres localhost.
 
 ## Wgrywanie aplikacji na serwer Tomcat
-
-Pobranie dodatkowej biblioteki "javax.el-api":
-
-    $ wget http://central.maven.org/maven2/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar
-    $ sudo mv javax.el-3.0.0.jar /usr/share/tomcat/lib
-
-Restart serwera Tomcat:
-
-    $ sudo systemctl restart tomcat
 
 Instalujemy aplikację przez Tomcat Manager'a: http://localhost:8080/manager
 Po wgraniu aplikacja powinna być widoczna pod adresem: http://localhost:8080/training

@@ -126,6 +126,7 @@ Stworzenie przestrzeni tymczasowej:
     $ SIZE 5M AUTOEXTEND ON;
 
 Stworzenie nowego schematu:
+
 	$ CREATE USER demo
 	$ IDENTIFIED BY demo
 	$ DEFAULT TABLESPACE tbs_tecna
